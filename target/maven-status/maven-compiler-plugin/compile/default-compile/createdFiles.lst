@@ -1,0 +1,5 @@
+cn/yj/simple/service/MemberServiceImpl.class
+cn/yj/simple/dto/Member.class
+cn/yj/simple/dto/Result.class
+cn/yj/simple/controller/MemberController.class
+cn/yj/simple/service/MemberService.class
