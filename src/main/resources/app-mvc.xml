@@ -14,7 +14,6 @@
 	<!-- 启用spring mvc 注解 -->
 <!--	<mvc:default-servlet-handler />-->
 	<mvc:annotation-driven />
-	<context:annotation-config />
 
 	<context:component-scan base-package="cn.yj.simple" use-default-filters="false">
 		<!--只包含@Controller -->

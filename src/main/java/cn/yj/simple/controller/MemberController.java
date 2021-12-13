@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @Controller
@@ -34,7 +35,7 @@ public class MemberController{
 	 */
 	@RequestMapping("/list.do")
 	@ResponseBody
-	public Result list(){
+	public Result list(HttpServletRequest request){
 		Result result = new Result();
 		List<Member> members = memberService.queryMembers();
 		result.setData(members);
