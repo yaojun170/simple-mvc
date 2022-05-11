@@ -1,5 +1,7 @@
 package cn.yj.simple.dto;
 
+import javax.servlet.ServletContext;
+
 /**
  * 全局结果返回
  * @author yaojun
