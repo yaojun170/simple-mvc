@@ -19,9 +19,4 @@ public class Member {
     private String name;
     private String address;
     private int age;
-
-    public static void main(String[] args) {
-        String version = SpringVersion.getVersion();
-        System.out.println(version);
-    }
 }
