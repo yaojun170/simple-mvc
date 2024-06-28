@@ -6,3 +6,4 @@ output
 *.retry
 */classes/
 target/
+**/.DS_Store
